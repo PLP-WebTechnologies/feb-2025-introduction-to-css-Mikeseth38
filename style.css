@@ -1,0 +1,41 @@
+/* Selector 1: Class selector for the main title */
+.main-title {
+    font-family: 'Arial', sans-serif;
+    color: #2375c6;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Selector 2: ID selector for the paragraph */
+#intro {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #34495e;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+}
+
+
+/* Wrapper for the image and its reflection */
+.image-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; /* Space between the original image and its reflection */
+}
+
+/* Original image styling */
+.styled-image {
+    max-width: 25%; /* Makes the image smaller */
+    height: auto; /* Maintains the aspect ratio */
+    border: 2px solid #3498db;
+    border-radius: 10px;
+}
+
+/* Reflection image styling */
+.reflection {
+    transform: scaleX(-1); /* Flips the image horizontally */
+    opacity: 0.5; /* Makes the reflection semi-transparent */
+}
